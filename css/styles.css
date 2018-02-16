@@ -1,0 +1,36 @@
+body {
+    background-color: #d7cec7;
+    font-family: 'Archivo Narrow', serif;
+    color: #565656;
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 600px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+ul#contact-list {
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+
+    line-height: 1.5;
+    list-style-position: outside;
+    display: block;
+}
+ul#contact-list li {
+    display: inline-block;
+}
+
+a {
+    color: #76323f;
+}
+
+#summary {
+    text-align: left;
+}
