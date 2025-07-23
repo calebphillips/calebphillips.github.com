@@ -1,44 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+
+<head>
+    <meta charset="UTF-8">
     <title>Caleb Phillips</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #d7cec7;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+        }
 
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Space+Mono">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Eczar">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Rubik">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
-    <link rel="stylesheet"
-          href="css/styles.css">
-  </head>
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            background: #e7e0e0;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
 
-  <body>
-    <div id="container">
-      <h1>Caleb Phillips</h1>
+        .header {
+            text-align: center;
+        }
 
+        .headshot {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #e1e4e8;
+            margin-bottom: 20px;
+        }
 
-      <ul id="contact-list">
-        <li><a href="resumec.pdf" target="_blank">Resume</a></li>
-        <li><a href="mailto:caleb.phillips@gmail.com">Email</a></li>
-        <li><a href="http://github.com/calebphillips" target="_blank">Github</a></li>
-        <li><a href="http://twitter.com/_calebp" target="_blank">Twitter</a></li>
-        <li><a href="http://www.linkedin.com/in/calebphillips/" target="_blank">Linked In</a></li>
-      </ul>
+        h1 {
+            font-size: 32px;
+            margin: 10px 0 5px 0;
+        }
 
-      <div id="content">
-        <div id="summary">
+        .links {
+            margin-top: 10px;
+        }
+
+        .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #a23a28;
+            font-weight: 500;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .summary {
+            font-size: 18px;
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/headshot-small.png" alt="Caleb Phillips" class="headshot">
+            <h1>Caleb Phillips</h1>
+            <div class="links">
+                <a href="resumec.pdf">Resume</a>
+                <a href="mailto:caleb.phillips@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/calebphillips" target="_blank">LinkedIn</a>
+                <a href="http://github.com/calebphillips" target="_blank">Github</a>
+                <a href="https://twitter.com/_calebp" target="_blank">Twitter</a>
+            </div>
+        </div>
+        <div class="summary">
             <p>
-               Seasoned software engineer with 25+ years of experience delivering scalable, data-driven
-platforms. Now focused on contract and fractional engineering work — helping teams ship
-faster, integrate smarter, and scale reliably.
+
+                Seasoned software engineer with 25+ years of experience delivering scalable, data-driven
+                platforms. Now focused on contract and fractional engineering work — helping teams ship
+                faster, integrate smarter, and scale reliably.
             </p>
         </div>
-      </div>
     </div>
+</body>
 
-  </body>
 </html>
